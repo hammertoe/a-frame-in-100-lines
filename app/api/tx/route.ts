@@ -15,8 +15,8 @@ async function getResponse(req: NextRequest): Promise<NextResponse | Response> {
   }
 
   const data = encodeFunctionData({
-    abi: CatsOrDogs,
-    functionName: 'voteforCats',
+    abi: CatsOrDogsABI,
+    functionName: 'voteForCats',
     args: [],
   });
 
