@@ -1,4 +1,4 @@
-[
+const abi = [
 	{
 		"inputs": [],
 		"name": "voteForCats",
@@ -39,4 +39,6 @@
 		"stateMutability": "view",
 		"type": "function"
 	}
-]
+] as const;
+
+export default abi;
