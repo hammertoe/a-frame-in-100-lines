@@ -27,7 +27,6 @@ async function getResponse(req: NextRequest): Promise<NextResponse | Response> {
       abi: [],
       data,
       to: CATS_OR_DOGS_CONTRACT_ADDR,
-      value: parseEther('0.00004').toString(), // 0.00004 ETH
     },
   };
   return NextResponse.json(txData);
